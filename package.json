@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug:docker": "node --nolazy --inspect-brk=0.0.0.0:9229 index.js",
+    "debug:local": "node --nolazy --inspect-brk=0.0.0.0:8080 index.js"
+
   },
   "author": "",
   "license": "ISC"
