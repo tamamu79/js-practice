@@ -8,4 +8,5 @@ RUN yarn install
 
 COPY . ./app
 
-
+EXPOSE 3000
+EXPOSE 9229
